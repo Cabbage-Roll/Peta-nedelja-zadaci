@@ -172,6 +172,5 @@ int main()
             default:
                 cout<<"Pokusajte ponovo."<<endl;
                 break;
-
         }
 }
