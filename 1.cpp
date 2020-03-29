@@ -64,9 +64,9 @@ public:
     }
 
     Kolac(const Kolac &p){
-        stanje = p.stanje;
-        temperatura = p.temperatura;
-        preliv = p.preliv;
+        stanje=p.stanje;
+        temperatura=p.temperatura;
+        preliv=p.preliv;
     }
 
     bool staviDaSePece(){
@@ -116,13 +116,13 @@ public:
     }
 
     bool dodajSlag(){
-        if(stanje == U_PRIPREMI)
+        if(stanje==U_PRIPREMI)
             return preliv.dodajSlag();
         return false;
     }
 
     bool ukloniSlag(){
-        if(stanje == U_PRIPREMI)
+        if(stanje==U_PRIPREMI)
             return preliv.ukloniSlag();
         return false;
     }
