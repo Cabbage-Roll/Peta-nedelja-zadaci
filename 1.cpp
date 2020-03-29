@@ -216,5 +216,4 @@ int main()
                 cout<<"Pokusajte ponovo."<<endl;
                 break;
             }
-    return 0;
 }
